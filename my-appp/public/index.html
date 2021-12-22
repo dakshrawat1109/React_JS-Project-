@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+
+    <header class="page-header">
+      <div class="space stars1"></div>
+      <div class="space stars2"></div>
+      <div class="space stars3"></div>
+  
+      <div class="header-h1"><h1>Welcome to my Space </h1>
+        
+      </div>
+    </header>
+  <article id="body-txt">
+    <span style="font-size:60px;"><p>ABOUT ME</p></span>
+    <p >My name is Daksh Rawat. I'm currently pursuing my Master's degree in Computer Science,from Pace University,NY,USA. Apart from studies, I enjoy dancing , singing  and many other cultural activities. I am an out going person and I enjoy meeting people. </p>
+  
+  </article>
+  
+    <main >
+  
+      <article class="flex flex1"><h1 class="h1-2"><a href="file:///Users/jyoti/Downloads/firstblog.html">India,</a></h1>
+        <p> Published <time itemprop="datePublished" datetime="2021-11-26">November 26, 2021</time>
+  
+          <align center></align> 
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuq6Bpd3MMiSMUaNG2B24lEh_vfK0yclfHXQ&usqp=CAU"
+          alt="this is image of first blog"> India, country that occupies the greater part of South Asia. Its capital is New Delhi, built in the 20th century just south of the historic hub of Old Delhi to serve as India’s administrative centre. Its government is a constitutional republic that represents a highly diverse population . </p>
+        </article>
+  
+        <article class="flex flex2"><h1 class="h1-1">
+          <a href="file:///Users/jyoti/Downloads/myblogAdv.html#homepage" >
+          Bollywood & India,</a></h1>
+          
+          <p> Published <time itemprop="datePublished" datetime="2021-11-26">November 26, 2021</time>
+            <align center></align> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuq6Bpd3MMiSMUaNG2B24lEh_vfK0yclfHXQ&usqp=CAU"
+            alt="this is image of first blog">   Hindi-language sector of the Indian moviemaking industry that began in Bombay (now Mumbai) in the 1930s and developed into an enormous film empire.fter early Indian experiments in silent film, in 1934 Bombay Talkies, launched by Himansu Rai, spearheaded the growth of Indian cinema.</p>
+  
+          </article>
+          <article class="flex flex3"><h1 class="h1-1"><a href="file:///Users/jyoti/Downloads/myblogAdv.html#homepage">Indian Festivals</a></h1>
+            <p> Published <time itemprop="datePublished" datetime="2021-11-26">November 26, 2021</time>
+              <align center></align> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuq6Bpd3MMiSMUaNG2B24lEh_vfK0yclfHXQ&usqp=CAU"
+              alt="this is image of first blog">  India is famous for a lot of things around the world from yoga to its diversity from its travel destinations to its rich past but one thing that this country is better at doing than most is celebrating festivals, lots of festivals. It is also famous for its historical evidences and temples. It's a culturaly diverse. </p>
+            </article>	
+  
+            <div class="messages"><button onclick='fetch();'>click here for CURRENT WEATHER update</button>
+              <br>
+            </div>
+          </main>
+  
+          <aside > 
+            
+            <nav> <span class="text-as">Quick Feeds</span>
+              
+              </nav>
+  
+              <br>
+  
+              <div><a class="twitter-timeline" href="https://twitter.com/iamsrk" data-widget-id="343005309226323970">Tweets by @iamsrk</a>  
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> </div>
+  
+                 <nav> 
+                   <ul>
+                  <div id="like_button_container"></div>
+                </ul>
+                </nav>
+  
+                <nav class="text-as2"><ul><li><a href="file:///Users/jyoti/Downloads/myblogAdv.html" target="_blank">MyBlog</a> </li></ul></nav>
+  
+  
+  
+                </aside>
+  
+  
+                <footer >
+  
+                  <span class="text-s">© MyBlogJ All rights reserved</span>
+  
+                  <div class=footer container>
+                    <span class ="text">Join our community</span><a href="https://twitter.com/" target="_blank"><button class="fa fa-twitter" type="button">follow on Twitter</button></a> 
+                  </div>
+  
+                </footer>
+  
+  
+                <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+                <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  
+                <!-- Load our React component. -->
+                <script src="like_button.js"></script>					</body>
+                </html>
+  
+                <script >
+                  function fetch(){
+                    $.ajax({
+                      url:"https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=0c6f6e6a9f81471e4bac788662da5543",
+                      type:"POST",
+                      dataType:"JSON",
+                      data:JSON.stringify({ }),
+                      success:function(data){
+                        $('.messages').append("<li>"+JSON.stringify(data)+"</li>")
+  
+  
+                      }
+                    });
+                  }
+                </script>
+
+    <!-- <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+   
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+   
+   
+    </body>
+</html> -->
+ 
+
+
+
+
+
+
+
