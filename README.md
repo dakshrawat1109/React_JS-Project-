@@ -1,3 +1,5 @@
+http://localhost:3000/
+
 Single Page Application
 
 This is a Single Page Application for few blog posts of Country India, Bollywood, and Indian Festivals. </br>
